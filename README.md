@@ -1,5 +1,5 @@
 
-cat > README.md << 'EOF'
+
 # 🚀 NetPeek
 
 > **Fast and simple port scanner written in Rust with Python integration**\
