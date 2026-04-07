@@ -27,13 +27,13 @@ cargo build --release
 
 ## 📦 Installation
 
-\`\`\`bash
+```
 git clone https://github.com/Kronoscba/NetPeek.git
 cd NetPeek
 
 cargo build --release
 cargo run --release -- <HOST> [PORTS]
-\`\`\`
+```
 
 > Requires **Rust 1.80+**
 
@@ -41,12 +41,12 @@ cargo run --release -- <HOST> [PORTS]
 
 ## 🔧 Usage
 
-\`\`\`bash
+```
 ./target/release/escaner_rapido 192.168.1.1
 ./target/release/escaner_rapido example.com --ports 80,443,8080
 ./target/release/escaner_rapido 10.0.0.1 --ports 1-1000
 ./target/release/escaner_rapido --help
-\`\`\`
+```
 
 ---
 
