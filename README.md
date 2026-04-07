@@ -9,10 +9,10 @@ cat > README.md << 'EOF'
 
 ## 🎯 Quick Start
 
-\`\`\`bash
+```
 cargo build --release
 ./target/release/escaner_rapido <HOST> [OPTIONS]
-\`\`\`
+```
 
 ## ⚡ Features
 
