@@ -1,6 +1,4 @@
-# Copia y pega en tu terminal local en la carpeta NetPeek:
 
-# 1. Crear README.md
 cat > README.md << 'EOF'
 # 🚀 NetPeek
 
@@ -71,10 +69,8 @@ cargo run --release -- <HOST> [PORTS]
 MIT — see [LICENSE](LICENSE).
 
 ## ⭐ Like it? Star it!
-EOF
 
-# 2. Crear LICENSE
-cat > LICENSE << 'EOF'
+
 MIT License
 
 Copyright (c) 2025 Kronoscba
@@ -98,7 +94,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 EOF
 
-# 3. Commit y push
-git add README.md LICENSE
-git commit -m "Add README and MIT License"
-git push origin main 
